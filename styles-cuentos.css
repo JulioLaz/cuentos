@@ -2,7 +2,9 @@ html{
    box-sizing: border-box;
 }
 h1{
-   color: beige;
+   color: rgb(26, 26, 23);
+   background-color: aquamarine;
+   
    margin-top: 0;
    font-size: clamp(1rem, 1rem + 3vw, 32.5rem);
    border: 5px solid rgb(192, 213, 159);
