@@ -1,0 +1,101 @@
+html{
+   scroll-behavior: smooth;
+}
+
+*{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+   background-color: aqua;
+}
+.enlaces{
+   padding: 2rem;
+   font-style:italic;
+   font-size: 2rem;
+   font-weight: bold;
+   text-align: center;
+   
+}
+.listas{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 1.5rem;
+}
+.listas li:last-of-type{
+   background-color: rgb(245, 135, 230);
+}
+.selectores-atributos a[target="blank"]{
+   font-size: 3rem;
+}
+.lista{
+   margin-left: 2rem;
+}
+details {
+   padding: 15px;
+   background-color: #bfcedc;
+   margin-bottom: 1rem;
+}
+
+summary:before {
+   content: "\25B8"; /* the new icon */
+   color: #696f7c;
+   margin-right: 10px;
+}
+h1{
+   text-align: center;
+   color: blue;
+}
+h2{
+   text-align: center;
+   color: red;
+}
+video{
+   left: 50px;
+   max-width: 300px;
+   height: auto;
+   transform:  rotate(-90deg);
+}
+.form01 *:required{
+   color: red;
+   border-color: red;
+}
+.form01 *:valid{
+   color: rgb(238, 7, 172);
+   font-weight: bold;
+   background-color: aquamarine;
+}
+.form01 *:invalid{
+   border-color: aqua;
+   color: rgb(107, 103, 236);
+   font-weight: bold;
+   background-color: bisque;
+}
+.form01 *:focus{
+   background-color: black;
+}
+.form01 *{
+ display: block;
+ width: 50%;
+}
+.estado-hover *:hover{
+   color: red;
+}
+.estado-hover *:visited{
+   color: violet;
+
+}
+.estado-hover{
+   padding: 20px;
+
+   border: 3px solid black;
+   width: 300px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+.input-note{
+   position: relative;
+   margin-left: 200px;
+   text-align: center;
+   width: 4ch;
+}

@@ -1,0 +1,126 @@
+html{
+   box-sizing: border-box;
+}
+h1{
+   color: beige;
+   margin-top: 0;
+   font-size: clamp(1rem, 1rem + 3vw, 32.5rem);
+   border: 5px solid rgb(192, 213, 159);
+   text-align: center;
+   /* width: 80%; */
+   max-width: 80%;
+   /* height: 22vh; */
+   padding: 2vw;
+   position: sticky;
+   top: 0px;
+   z-index: -1;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: url("../birds/5.jpg"),url("../birds/4.jpg");
+   background-size:25%;
+   background-repeat: repeat, no-repeat;
+}
+h2{
+   z-index: 100;
+   background-color: aquamarine;
+   left: auto;
+   right: auto;
+   
+}
+.cuento-01,
+.cuento-02{
+   z-index: 200;
+   background-color: rgb(50, 200, 216);
+   font-size: clamp(1rem, 1.1rem + .2vw, 2rem);
+   text-align: justify;
+   padding: 1vw;
+}
+/* para text-oweflow se tiene que usar
+overflow: hidden;
+white-space: nowrap; que hacer con los espacios en blanco
+nowrap: una sola linea
+ */
+.parrafo-01{
+   padding: 1rem;
+   background-color: aquamarine;
+   border: 3px solid gray;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: hidden;
+   white-space: nowrap;
+   text-align: justify;
+   text-overflow: ellipsis;
+   text-transform: uppercase;
+}
+.parrafo-02{
+   font-size: 6rem;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.box-01{
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid black;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+   width: 200px;
+   height: 200px;
+}
+.box-01{
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid black;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+   width: 200px;
+   height: 200px;
+   margin-bottom: 2rem;
+}
+.box-02{
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid black;
+   background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(126,61,74,1) 100%);
+   width: 200px;
+   height: 200px;
+   margin-bottom: 2rem;
+}
+.box-03{
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid black;
+   background: linear-gradient(0deg, rgb(0, 61, 85) 0%, rgba(253,187,45,1) 100%);
+   width: 200px;
+   height: 200px;
+   margin-bottom: 2rem;
+}
+.box-04{
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid black;
+   background: linear-gradient(0deg,rgba(0,212,255) 33%, white 34% 67%, rgba(0,212,255) 68%);
+   width: 200px;
+   height: 200px;
+   margin-bottom: 2rem;
+   
+}
+.box-05{
+   border-radius: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid black;
+   background: radial-gradient(circle,rgba(0,212,255) 25%, white 26% 50%, rgba(0,212,255) 51%);
+   width: 200px;
+   height: 200px;
+   margin-bottom: 2rem;
+}
+#sol{
+   margin-top: 60px;
+   /* margin-bottom: 50%; */
+   text-align: center;
+   font-size: 50px;
+}

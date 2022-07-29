@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="estilos.css">
+   <link rel="stylesheet" href="normalize.css">
+   <link rel="stylesheet" href="normalizer-box.css">
+   <!--title 55 y 65 cacarteres-->
+   <title>FILOSOFIA</title>
+   <!-- descripcion de no mas de 165 caracteres-->
+   <meta name="decripcion" content="en esta pagina estamod aprendiendo html">
+<link rel="canonical" href="http://tudominio.com/la-url-canonica">
+<link rel="icon" href="2.jpg">
+<link rel="apple-touch-icon" href="2.jpg">
+
+</head>
+<body>
+<header>
+<h1 id="inicio">INICIO</h1>
+<hr>
+   <nav class="selectores-atributos">
+      <ul>
+         <a class="enlaces" href="alegorias.html" target="blank">Alegorias</a>
+         <a class="enlaces" href="cuentos.html" target="blank">Cuentos</a>
+         <a class="enlaces" href="mitos.html" target="blank">Mitos</a>
+         <a class="enlaces" href="leyendas.html" target="_blank">Leyendas</a>
+      </ul>   
+</nav>         
+   <br>
+   <div>
+      <h2>DESTINATARIOS</h2>
+      <li class="listas">Niños</li>
+      <li class="listas">Jóvenes</li>
+      <li class="listas">Adultos</li>
+      <li class="listas">Genéricos</li>
+   </div>
+   <hr>
+</header>
+<details>
+   <summary>lista desplegable</summary>
+   <!-- <h2>titulo de la lista</h2> -->
+   <details>
+      <summary class="lista">lista01</summary>
+      <li class="lista">00001</li>
+      <li class="lista">00002</li>
+      <li class="lista">00003</li>
+   </details>
+   <details>
+      <summary class="lista">lista02</summary>
+      <li class="lista">00001</li>
+      <li class="lista">00002</li>
+      <li class="lista">00003</li>
+   </details>
+   <details>
+      <summary class="lista">lista03</summary>
+      <li class="lista">00001</li>
+      <li class="lista">00002</li>
+      <li class="lista">00003</li>
+   </details>
+
+
+
+</details>
+<hr>
+<h2>Audio</h2>
+<audio src="julio.ogg" controls preload="auto">AUDIO DE JULIO</audio>
+<hr>
+<h2>video</h2>
+<video src="julio.mp4" controls preload="auto" poster="2.jpg"></video>
+<hr>
+   <a href="index.html#inicio">
+      <button>volver</button>
+   </a>
+   <hr>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28527.296718256566!2d-65.07726658448759!3d-26.651297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94228bc6699a85d5%3A0x1872ddcb0963c8d5!2sCamping%20Balneario%20La%20Isla!5e0!3m2!1ses!2sar!4v1654394462405!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-oK6zL01fNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<form action="" method="get" autocomplete="on">
+   <label for="usuario">Usuario</label>
+   <input type="text" name="usuario" id="usuario" placeholder="nombre" pattern="^[A-Za-z]+$" required>
+   <br><br>
+   <label for="pass">Contraseña</label>
+   <input type="password" name="pass" id="pass" placeholder="contraseña" autocomplete="address-level1" required>
+   <br><br>
+   <label for="email">email</label>
+   <input type="email" id="email" name="email" placeholder="email" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required>
+   <br><br>
+   <input type="submit">
+   <br><br>
+   <input type="reset">
+</form>
+   <br><br><hr>
+   <h2>select, radios, checkbox</h2>
+<form>
+      <p>Elige una opcion</p>
+      <select name="idioma" required>
+         <option value="">Elige una opcion</option>
+         <option value="es">Español</option>
+         <option value="en">Ingles</option>
+         <option value="br">brasileño</option>
+         <option value="fr">frances</option>
+         <option value="it">italiano</option>
+      </select>
+      <input type="submit">
+      <input type="reset">
+</form>
+<br><br><hr>
+<form class="form01" action="https://formsubmit.co/1e113f25988b71df5e1962bd895342e5" target="blanck" method="post" autocomplete="on">
+   <h3>NUEVO FORMULARIO</h3>
+      <label for="usuario">Usuario</label>
+      <input type="text" name="usuario" id="usuario" placeholder="nombre" pattern="^[A-Za-z]+$" required>
+      <br>
+      <label for="pass">Contraseña</label>
+      <input type="password" name="pass" id="pass" placeholder="contraseña" autocomplete="address-level1" required>
+    <p>Elige una nota</p>  
+    <select name="Nota-participación" id="" required>
+       <option value="1">01</option>
+       <option value="2">02</option>
+       <option value="3">03</option>
+       <option value="4">04</option>
+       <option value="5">05</option>
+       <option value="6">06</option>
+       <option value="7">07</option>
+       <option value="8">08</option>
+       <option value="9">09</option>
+       <option value="10">10</option>
+    </select>
+   <p>Elige una o varias opciones</p>
+      <select name="idioma" multiple required>
+         <option value="ar" selected>Argentino</option>
+         <option value="jp">japones</option>
+         <option value="es">Español</option>
+         <option value="en">Ingles</option>
+         <option value="br">brasileño</option>
+         <option value="fr">frances</option>
+         <option value="it">italiano</option>
+      </select>
+      <p>elegir solo una opcion (checked y required)</p>
+      <input type="radio" name="Lenguaje" id="radio-01" value="01" checked>
+      <label for="radio-01" >lenguaje-01</label>
+      <input type="radio" name="Lenguaje" id="radio-02" value="02" required>
+      <label for="radio-02">lenguaje-02</label>
+      <input type="radio" name="Lenguaje" id="radio-03" value="03">
+      <label for="radio-03">lenguaje-03</label>
+      <br><br>
+   <!-- <label>
+      <input type="checkbox" name="intereses" value="deportes">
+      DEPORTES
+   </label>
+   <label>
+      <input type="checkbox" name="intereses" value="ecologia" checked>
+      ECOLOGIA
+   </label>
+   <label>
+      <input type="checkbox" name="intereses" value="finanzas">
+      FINANZAS
+   </label>
+   <label>
+      <input type="checkbox" name="intereses" value="politica" checked>
+      POLITICA
+   </label><br>
+   <label>
+      <input type="checkbox" name="intereses" value="terminos" required>
+      ¿ACEPTAS TERMINOS Y CONDICIONES?
+   </label> -->
+   
+   <input id="sport" type="checkbox" name="Gustos" value="deportes">
+   <label for="sport">DEPORTES</label>
+   <input id="ecology" type="checkbox" name="Gustos" value="ecologia" checked>
+   <label for="ecology">ECOLOGIA</label>
+   <input id="financy" type="checkbox" name="Gustos" value="finanzas">
+   <label for="financy">FINANZAS</label>  
+   <input id="polity" type="checkbox" name="Gustos" value="politica" checked>
+   <label for="polity">POLITICA</label>
+      <br>
+      <input id="terminos" type="checkbox" name="Terminos y condiciones" value="Acepto" required>
+      <label for="terminos">¿ACEPTAS TERMINOS Y CONDICIONES?</label>
+       <br><br>
+      <label for="text">Ingresar nota (0 al 10)</label>
+       <input class="input-note" id="text" type="text" title="Ingresa números del 0 al 10" name="notas"   pattern="^([0-9])" minlength="1" maxlength="2" size="2" required>
+   <br><br>
+
+   <label for="textarea">comenta algo</label><br>
+   <textarea name="comentarios" id="textarea" cols="30" rows="10" placeholder="escribe tu comentario" title="comentario obligatorio" required></textarea>
+   <br><br>
+      <input type="submit">
+      <input type="reset">
+   </form>
+   <br><br><hr>
+   <h2>Formulario de contactos</h2>
+   <form action="https://formsubmit.co/1e113f25988b71df5e1962bd895342e5 " target="blanck" method="post" autocomplete="on">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" type="text" name="nombre" placeholder="escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="nombre sólo acepta letras y espacios en blanco" required>
+            <br><br>
+      <label for="correo">Correo</label>
+      <input id="correo" type="email" name="email" placeholder="escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="formato de correo invalido" required >
+      <br><br>
+      <label for="textarea">comenta algo</label><br>
+      <textarea name="comentarios" id="textarea" placeholder="escribe tu comentario" cols="30" rows="10" title="comentario obligatorio" required></textarea>
+      <br><br>
+
+
+      <input type="submit">
+      <input type="reset">
+</form>
+<h3>ENLACES ESTADO HOVER</h3>
+<Nav class="estado-hover">
+   <li><a href="">hola1😊</a></li>
+   <li><a href="">HOLA2😒</a></li>
+   <li><a href="">HOLA3😘</a></li>
+   <li><a href="">HOLA4😁</a></li>
+</Nav>
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
