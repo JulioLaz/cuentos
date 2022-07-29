@@ -30,7 +30,8 @@ h2{
    
 }
 .cuento-01,
-.cuento-02{
+.cuento-02,
+.cuento-03{
    z-index: 200;
    background-color: rgb(50, 200, 216);
    font-size: clamp(1rem, 1.1rem + .2vw, 2rem);
